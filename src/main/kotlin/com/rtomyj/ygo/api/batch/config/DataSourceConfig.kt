@@ -1,4 +1,4 @@
-package com.rtomyj.yugiohapibatch.config
+package com.rtomyj.ygo.api.batch.config
 
 import com.zaxxer.hikari.HikariDataSource
 import org.springframework.beans.factory.annotation.Autowired

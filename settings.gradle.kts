@@ -1,1 +1,1 @@
-rootProject.name = "yugioh-api-batch"
+rootProject.name = "ygo-api-batch"

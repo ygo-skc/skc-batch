@@ -1,4 +1,4 @@
-package com.rtomyj.yugiohapibatch
+package com.rtomyj.ygo.api.batch
 
 import org.springframework.beans.factory.annotation.Autowired
 import org.springframework.boot.autoconfigure.SpringBootApplication

@@ -1,4 +1,4 @@
-package com.rtomyj.yugiohapibatch
+package com.rtomyj.ygo.api.batch
 
 import org.junit.jupiter.api.Test
 import org.springframework.boot.test.context.SpringBootTest
