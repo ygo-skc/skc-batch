@@ -3,3 +3,5 @@ spring:
     url: jdbc:mysql://localhost:3306/yugioh_API_DB
     username: root
     password:
+  batch:
+    initialize-schema: always # Needed for batch jobs to store temp info in an in memory database that isn't initialized when using a real DB

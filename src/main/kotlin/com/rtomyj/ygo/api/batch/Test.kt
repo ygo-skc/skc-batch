@@ -10,10 +10,10 @@ class Test {
     @Autowired
     lateinit var dao: Dao
 
-    @PostConstruct
-    fun test()
-    {
-        dao.test()
-    }
+//    @PostConstruct
+//    fun test()
+//    {
+//        dao.test()
+//    }
 
 }
