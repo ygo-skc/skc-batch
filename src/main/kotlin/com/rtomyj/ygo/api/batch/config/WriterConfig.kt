@@ -6,8 +6,9 @@ import org.springframework.context.annotation.Configuration
 
 
 @Configuration
-class YgoItemWriter: ItemWriter<CardModel> {
-    override fun write(items: MutableList<out CardModel>) {
-        println("writer invoked")
-    }
+class WriterConfig: ItemWriter<CardModel>
+{
+
+    override fun write(items: MutableList<out CardModel>) = println("writer invoked")
+
 }
