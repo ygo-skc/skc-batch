@@ -10,8 +10,16 @@ import org.springframework.stereotype.Component
 class CardTextParsingProcessor: ItemProcessor<CardModel, CardModel>
 {
     override fun process(item: CardModel): CardModel? {
-        println(item)
+        val referenceRegex = Regex("\"[^.,\\s].*?\"+")
 
+//        val results = hashSetOf(referenceRegex.findAll(item.cardEffect, 0).map { it. })
+        val results = referenceRegex.findAll(item.cardEffect, 0).map { it.value }.toHashSet()
+        print("All references for ${item.cardName}: ")
+        for (result in results)
+        {
+            print("$result &&& ")
+        }
+        println()
         return item
     }
 

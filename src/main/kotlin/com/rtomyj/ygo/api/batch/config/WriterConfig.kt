@@ -9,6 +9,6 @@ import org.springframework.context.annotation.Configuration
 class WriterConfig: ItemWriter<CardModel>
 {
 
-    override fun write(items: MutableList<out CardModel>) = println("writer invoked")
+    override fun write(items: MutableList<out CardModel>) = println()
 
 }

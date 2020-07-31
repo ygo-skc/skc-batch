@@ -28,6 +28,8 @@ dependencies {
 	testImplementation("org.springframework.batch:spring-batch-test")
 
 	runtimeOnly("mysql:mysql-connector-java:8.0.19")
+
+	testRuntimeOnly("com.h2database:h2")
 }
 
 tasks.withType<Test> {
